@@ -19,7 +19,7 @@
 
   <target name="jar" depends="compile">
     <mkdir dir = "${jar.dir}"/>
-    <javac destfile="${jar.dir}/${jar-name}" basedir="${bin.dir}">
+    <javac destfile="${jar.dir}/${jar-name}" basedir="${bin.dir}"/>
       <manifest>
         <attribute name="Main-Class" value="${Main-Class}"/>
       </manifest>
